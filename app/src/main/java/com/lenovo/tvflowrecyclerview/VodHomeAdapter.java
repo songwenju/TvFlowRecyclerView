@@ -15,26 +15,8 @@ import com.bumptech.glide.Glide;
 import java.util.ArrayList;
 import java.util.List;
 
-import static com.lenovo.tvflowrecyclerview.Constants.ITEM_TYPE_EIGHT;
-import static com.lenovo.tvflowrecyclerview.Constants.ITEM_TYPE_EIGHTEEN;
-import static com.lenovo.tvflowrecyclerview.Constants.ITEM_TYPE_ELEVEN;
-import static com.lenovo.tvflowrecyclerview.Constants.ITEM_TYPE_FIFTEEN;
-import static com.lenovo.tvflowrecyclerview.Constants.ITEM_TYPE_FIVE;
-import static com.lenovo.tvflowrecyclerview.Constants.ITEM_TYPE_FOUR;
-import static com.lenovo.tvflowrecyclerview.Constants.ITEM_TYPE_FOURTEEN;
-import static com.lenovo.tvflowrecyclerview.Constants.ITEM_TYPE_NINE;
-import static com.lenovo.tvflowrecyclerview.Constants.ITEM_TYPE_NINETEEN;
-import static com.lenovo.tvflowrecyclerview.Constants.ITEM_TYPE_ONE;
-import static com.lenovo.tvflowrecyclerview.Constants.ITEM_TYPE_SEVEN;
-import static com.lenovo.tvflowrecyclerview.Constants.ITEM_TYPE_SEVENTEEN;
-import static com.lenovo.tvflowrecyclerview.Constants.ITEM_TYPE_SIX;
-import static com.lenovo.tvflowrecyclerview.Constants.ITEM_TYPE_SIXTEEN;
-import static com.lenovo.tvflowrecyclerview.Constants.ITEM_TYPE_TEN;
-import static com.lenovo.tvflowrecyclerview.Constants.ITEM_TYPE_THIRTEEN;
-import static com.lenovo.tvflowrecyclerview.Constants.ITEM_TYPE_THREE;
-import static com.lenovo.tvflowrecyclerview.Constants.ITEM_TYPE_TWELVE;
-import static com.lenovo.tvflowrecyclerview.Constants.ITEM_TYPE_TWENTY;
-import static com.lenovo.tvflowrecyclerview.Constants.ITEM_TYPE_TWO;
+import static com.lenovo.tvflowrecyclerview.Constants.*;
+
 
 /**
  * @author songwenju
@@ -76,7 +58,7 @@ public class VodHomeAdapter extends RecyclerView.Adapter {
         mScreenWidth = displayMetrics.widthPixels;
 
 
-        for (int i = 0; i <20; i++) {
+        for (int i = 0; i < 20; i++) {
             Module module = new Module();
             module.setPoster("http://smtv-cms.oss-cn-beijing.aliyuncs.com/cms/2017-12-12/201712121055205457580.jpg");
             elements.add(module);
