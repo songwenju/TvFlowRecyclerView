@@ -1,0 +1,42 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/type_layout_nine"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:clipChildren="false"
+    android:clipToPadding="false">
+
+    <ImageView
+        android:id="@+id/sub_type8_image_one"
+        style="@style/item_240_130_style"
+        android:layout_marginRight="@dimen/px_15_dp" />
+
+    <ImageView
+        android:id="@+id/sub_type8_image_two"
+        style="@style/item_240_130_style"
+        android:layout_marginLeft="@dimen/px_15_dp"
+        android:layout_marginRight="@dimen/px_15_dp" />
+
+    <ImageView
+        android:id="@+id/sub_type8_image_three"
+        style="@style/item_240_130_style"
+        android:layout_marginLeft="@dimen/px_15_dp"
+        android:layout_marginRight="@dimen/px_15_dp" />
+
+    <ImageView
+        android:id="@+id/sub_type8_image_four"
+        style="@style/item_240_130_style"
+        android:layout_marginLeft="@dimen/px_15_dp"
+        android:layout_marginRight="@dimen/px_15_dp" />
+
+    <ImageView
+        android:id="@+id/sub_type8_image_five"
+        style="@style/item_240_130_style"
+        android:layout_marginLeft="@dimen/px_15_dp"
+        android:layout_marginRight="@dimen/px_15_dp"
+        android:src="@drawable/ic_default" />
+
+    <ImageView
+        android:id="@+id/sub_type8_image_six"
+        style="@style/item_240_130_style"
+        android:layout_marginLeft="@dimen/px_15_dp" />
+</LinearLayout>

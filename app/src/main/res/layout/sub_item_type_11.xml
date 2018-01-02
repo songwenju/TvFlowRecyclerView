@@ -1,0 +1,24 @@
+<LinearLayout
+    android:id="@+id/type_layout_five"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="445dp"
+    android:clipChildren="false"
+    android:layout_marginTop="@dimen/px_12_dp"
+    android:clipToPadding="false">
+
+    <ImageView
+        android:id="@+id/type9_image_one"
+        android:layout_width="1048dp"
+        android:layout_height="match_parent"
+        android:layout_marginRight="@dimen/px_15_dp"
+        android:scaleType="centerCrop"/>
+
+    <ImageView
+        android:id="@+id/sub_type9_image_two"
+        android:layout_width="510dp"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="@dimen/px_15_dp"
+        android:layout_weight="1"
+        android:scaleType="centerCrop"/>
+</LinearLayout>

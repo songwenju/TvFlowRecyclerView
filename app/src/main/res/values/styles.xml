@@ -1,0 +1,109 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+    </style>
+
+    <style name="item_layout_style">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">@dimen/px_12_dp</item>
+        <item name="android:layout_marginBottom">@dimen/px_12_dp</item>
+        <item name="android:clipChildren">false</item>
+        <item name="android:clipToPadding">false</item>
+    </style>
+
+    <style name="sub_item_style">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">@dimen/px_12_dp</item>
+        <item name="android:layout_marginBottom">@dimen/px_18_dp</item>
+        <item name="android:layout_marginRight">@dimen/px_15_dp</item>
+    </style>
+
+    <style name="item_type_style">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="item_weight_type_style" parent="item_fitxy_type_style">
+        <item name="android:layout_weight">1</item>
+    </style>
+
+    <style name="item_fitxy_type_style" parent="item_type_style">
+        <item name="android:scaleType">fitXY</item>
+        <item name="android:src">@drawable/ic_default</item>
+    </style>
+
+    <style name="item_1588_312_style" parent="item_fitxy_type_style">
+        <item name="android:layout_width">@dimen/px_1588_dp</item>
+        <item name="android:layout_height">@dimen/px_312_dp</item>
+    </style>
+
+    <style name="item_509_312_style" parent="item_fitxy_type_style">
+        <item name="android:layout_width">@dimen/px_509_dp</item>
+        <item name="android:layout_height">@dimen/px_312_dp</item>
+    </style>
+
+    <style name="item_779_312_style" parent="item_fitxy_type_style">
+        <item name="android:layout_width">@dimen/px_779_dp</item>
+        <item name="android:layout_height">@dimen/px_312_dp</item>
+    </style>
+
+    <style name="item_779_384_style" parent="item_fitxy_type_style">
+        <item name="android:layout_width">@dimen/px_779_dp</item>
+        <item name="android:layout_height">@dimen/px_384_dp</item>
+    </style>
+
+    <style name="item_240_312_style" parent="item_fitxy_type_style">
+        <item name="android:layout_width">@dimen/px_240_dp</item>
+        <item name="android:layout_height">@dimen/px_312_dp</item>
+    </style>
+
+    <style name="item_1048_312_style" parent="item_fitxy_type_style">
+        <item name="android:layout_width">@dimen/px_1048_dp</item>
+        <item name="android:layout_height">@dimen/px_312_dp</item>
+    </style>
+
+    <style name="item_1048_510_style" parent="item_fitxy_type_style">
+        <item name="android:layout_width">@dimen/px_1048_dp</item>
+        <item name="android:layout_height">@dimen/px_510_dp</item>
+    </style>
+
+    <style name="item_510_240_style" parent="item_fitxy_type_style">
+        <item name="android:layout_width">@dimen/px_510_dp</item>
+        <item name="android:layout_height">@dimen/px_240_dp</item>
+    </style>
+
+    <style name="item_240_240_style" parent="item_fitxy_type_style">
+        <item name="android:layout_width">@dimen/px_240_dp</item>
+        <item name="android:layout_height">@dimen/px_240_dp</item>
+    </style>
+
+    <style name="item_1048_445_style" parent="item_fitxy_type_style">
+        <item name="android:layout_width">@dimen/px_1048_dp</item>
+        <item name="android:layout_height">@dimen/px_445_dp</item>
+    </style>
+
+    <style name="item_510_445_style" parent="item_fitxy_type_style">
+        <item name="android:layout_width">@dimen/px_510_dp</item>
+        <item name="android:layout_height">@dimen/px_445_dp</item>
+    </style>
+
+    <style name="item_375_141_style" parent="item_fitxy_type_style">
+        <item name="android:layout_width">@dimen/px_375_dp</item>
+        <item name="android:layout_height">@dimen/px_141_dp</item>
+    </style>
+
+    <style name="item_200_200_style" parent="item_fitxy_type_style">
+        <item name="android:layout_width">@dimen/px_200_dp</item>
+        <item name="android:layout_height">@dimen/px_200_dp</item>
+    </style>
+
+    <style name="item_240_130_style" parent="item_fitxy_type_style">
+        <item name="android:layout_width">@dimen/px_240_dp</item>
+        <item name="android:layout_height">@dimen/px_130_dp</item>
+    </style>
+
+</resources>

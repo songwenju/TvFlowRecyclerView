@@ -1,0 +1,16 @@
+<TextView
+    android:id="@+id/item_title"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="@dimen/px_6_dp"
+    android:ellipsize="end"
+    android:focusable="false"
+    android:includeFontPadding="false"
+    android:lines="1"
+    android:text="十一月最佳应用"
+    android:textColor="@color/font_color"
+    android:textSize="@dimen/px_36_sp"
+    android:textStyle="bold"
+    android:visibility="visible"/>
+

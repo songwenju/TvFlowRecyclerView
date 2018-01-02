@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:id="@+id/layout_sixteenn"
+              style="@style/item_layout_style"
+              xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical">
+
+    <include
+        android:id="@+id/item_title_layout"
+        layout="@layout/sub_item_type_title"
+        android:visibility="visible"/>
+
+    <include
+        android:id="@+id/sub_item_type_5_include1"
+        style="@style/sub_item_style"
+        layout="@layout/sub_item_type_5"/>
+
+    <include
+        android:id="@+id/sub_item_type_5_include2"
+        style="@style/sub_item_style"
+        layout="@layout/sub_item_type_5"/>
+
+</LinearLayout>

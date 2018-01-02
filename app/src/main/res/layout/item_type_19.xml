@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:id="@+id/layout_nineteen"
+              style="@style/item_layout_style"
+              xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical">
+
+    <include
+        android:id="@+id/item_title_layout"
+        layout="@layout/sub_item_type_title"
+        android:visibility="gone"/>
+
+    <include
+        style="@style/sub_item_style"
+        layout="@layout/sub_item_type_9"/>
+
+    <include
+        style="@style/sub_item_style"
+        layout="@layout/sub_item_type_3"/>
+
+</LinearLayout>

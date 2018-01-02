@@ -1,0 +1,69 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/type_layout_seven"
+    android:layout_width="match_parent"
+    android:layout_height="280dp"
+    android:orientation="horizontal"
+    android:layout_marginLeft="@dimen/px_15_dp">
+
+    <ImageView
+        android:id="@+id/sub_type7_layout_one"
+        style="@style/item_layout_style"
+        android:layout_marginRight="@dimen/px_15_dp"
+        android:layout_weight="1"
+        android:orientation="vertical">
+    </ImageView>
+
+    <ImageView
+        android:id="@+id/sub_type7_layout_two"
+        style="@style/item_layout_style"
+        android:layout_marginLeft="@dimen/px_15_dp"
+        android:layout_marginRight="@dimen/px_15_dp"
+        android:layout_weight="1"
+        android:orientation="vertical">
+    </ImageView>
+
+    <ImageView
+        android:id="@+id/sub_type7_layout_three"
+        style="@style/item_layout_style"
+        android:layout_marginLeft="@dimen/px_15_dp"
+        android:layout_marginRight="@dimen/px_15_dp"
+        android:layout_weight="1"
+        android:orientation="vertical">
+    </ImageView>
+
+    <ImageView
+        android:id="@+id/sub_type7_layout_four"
+        style="@style/item_layout_style"
+        android:layout_marginLeft="@dimen/px_15_dp"
+        android:layout_marginRight="@dimen/px_15_dp"
+        android:layout_weight="1"
+        android:orientation="vertical">
+    </ImageView>
+
+    <ImageView
+        android:id="@+id/sub_type7_layout_five"
+        style="@style/item_layout_style"
+        android:layout_marginLeft="@dimen/px_15_dp"
+        android:layout_marginRight="@dimen/px_15_dp"
+        android:layout_weight="1"
+        android:orientation="vertical">
+    </ImageView>
+
+    <ImageView
+        android:id="@+id/sub_type7_layout_six"
+        style="@style/item_layout_style"
+        android:layout_marginLeft="@dimen/px_15_dp"
+        android:layout_marginRight="@dimen/px_15_dp"
+        android:layout_weight="1"
+        android:orientation="vertical">
+    </ImageView>
+
+    <ImageView
+        android:id="@+id/sub_type7_layout_seven"
+        style="@style/item_layout_style"
+        android:layout_marginLeft="@dimen/px_15_dp"
+        android:layout_marginRight="@dimen/px_15_dp"
+        android:layout_weight="1"
+        android:orientation="vertical">
+    </ImageView>
+</LinearLayout>

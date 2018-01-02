@@ -1,0 +1,19 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:clipChildren="false"
+    android:clipToPadding="false">
+
+    <ImageView
+        android:id="@+id/sub_type4_image_one"
+        style="@style/item_1048_312_style"
+        android:layout_marginRight="@dimen/px_15_dp"
+        android:layout_weight="2"/>
+
+    <ImageView
+        android:id="@+id/sub_type4_image_two"
+        style="@style/item_509_312_style"
+        android:layout_marginLeft="@dimen/px_15_dp"/>
+
+</LinearLayout>

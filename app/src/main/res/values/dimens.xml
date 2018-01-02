@@ -1,0 +1,90 @@
+<resources>
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <!-- old dialog px -->
+<!--    <dimen name="dialog_btn_width">223px</dimen>
+    <dimen name="dialog_btn_height">55px</dimen>
+    <dimen name="dialog_btn_left_margin">48px</dimen>
+    <dimen name="dialog_btn_right_margin">49px</dimen>
+    <dimen name="dialog_btn_text_size">30px</dimen>-->
+
+    <!--Ledialog-->
+    <dimen name="ledialog_container_width">741px</dimen>
+    <dimen name="ledialog_container_height">372px</dimen>
+    <dimen name="ledialog_text_container_padding">70px</dimen>
+    <!--new dialog px -->
+    <dimen name="dialog_btn_width">170px</dimen>
+    <dimen name="dialog_btn_height">70px</dimen>
+    <dimen name="dialog_btn_left_margin">48px</dimen>
+    <dimen name="dialog_btn_right_margin">49px</dimen>
+    <dimen name="dialog_btn_text_size">28px</dimen>
+
+
+    <!--LeLoadingDialog-->
+    <dimen name="leloading_progress_width">66px</dimen>
+    <dimen name="leloading_progress_height">66px</dimen>
+    <dimen name="leloading_width_small">378px</dimen>
+    <dimen name="leloading_height_small">138px</dimen>
+    <dimen name="leloading_width_big">538px</dimen>
+    <dimen name="leloading_height_big">178px</dimen>
+
+    <!--category-->
+    <dimen name="item_width">400dp</dimen>
+    <dimen name="item_height">231dp</dimen>
+    <dimen name="default_img_width">399dp</dimen>
+    <dimen name="default_img_height">230dp</dimen>
+    <dimen name="margin">12dp</dimen>
+
+    <dimen name="recycler_total_width">1656dp</dimen>
+    <dimen name="recycler_item_width">414dp</dimen>
+
+    <dimen name="px_34_sp">34sp</dimen>
+    <dimen name="px_36_sp">36sp</dimen>
+    <dimen name="px_54_sp">40sp</dimen>
+
+    <dimen name="px_3_dp">3dp</dimen>
+    <dimen name="px_4_dp">4dp</dimen>
+    <dimen name="px_5_dp">5dp</dimen>
+    <dimen name="px_6_dp">6dp</dimen>
+    <dimen name="px_10_dp">10dp</dimen>
+    <dimen name="px_12_dp">12dp</dimen>
+    <dimen name="px_15_dp">15dp</dimen>
+    <dimen name="px_16_dp">16dp</dimen>
+    <dimen name="px_17_dp">17dp</dimen>
+    <dimen name="px_18_dp">18dp</dimen>
+    <dimen name="px_20_dp">20dp</dimen>
+    <dimen name="px_24_dp">24dp</dimen>
+    <dimen name="px_30_dp">30dp</dimen>
+    <dimen name="px_32_dp">32dp</dimen>
+    <dimen name="px_40_dp">40dp</dimen>
+    <dimen name="px_44_dp">44dp</dimen>
+    <dimen name="px_45_dp">45dp</dimen>
+    <dimen name="px_64_dp">64dp</dimen>
+    <dimen name="px_92_dp">92dp</dimen>
+    <dimen name="px_125_dp">125dp</dimen>
+    <dimen name="px_130_dp">130dp</dimen>
+    <dimen name="px_141_dp">141dp</dimen>
+    <dimen name="px_156_dp">156dp</dimen>
+    <dimen name="px_200_dp">200dp</dimen>
+    <dimen name="px_240_dp">240dp</dimen>
+    <dimen name="px_270_dp">270dp</dimen>
+    <dimen name="px_310_dp">310dp</dimen>
+    <dimen name="px_312_dp">312dp</dimen>
+    <dimen name="px_375_dp">375dp</dimen>
+    <dimen name="px_382_dp">382dp</dimen>
+    <dimen name="px_384_dp">384dp</dimen>
+    <dimen name="px_416_dp">416dp</dimen>
+    <dimen name="px_445_dp">445dp</dimen>
+    <dimen name="px_509_dp">509dp</dimen>
+    <dimen name="px_510_dp">510dp</dimen>
+    <dimen name="px_636_dp">636dp</dimen>
+    <dimen name="px_779_dp">6779dp</dimen>
+    <dimen name="px_1048_dp">1048dp</dimen>
+    <dimen name="px_1588_dp">1588dp</dimen>
+
+    <dimen name="radius">10dp</dimen>
+    <dimen name="border">5dp</dimen>
+    <dimen name="leftAndRight_margin">166dp</dimen>
+</resources>

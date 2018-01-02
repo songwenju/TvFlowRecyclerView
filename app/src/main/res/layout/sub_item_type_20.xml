@@ -1,0 +1,19 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:clipChildren="false"
+              android:clipToPadding="false"
+              android:orientation="horizontal">
+
+    <ImageView
+        android:id="@+id/sub_type20_image_one"
+        style="@style/item_1048_445_style"
+        android:layout_width="@dimen/px_1048_dp"
+        android:layout_marginRight="@dimen/px_15_dp"/>
+
+    <ImageView
+        android:id="@+id/sub_type20_image_two"
+        style="@style/item_510_445_style"
+        android:layout_width="@dimen/px_445_dp"
+        android:layout_marginLeft="@dimen/px_15_dp"/>
+</LinearLayout>
