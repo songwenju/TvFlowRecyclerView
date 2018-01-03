@@ -5,18 +5,18 @@
     android:clipChildren="false"
     android:clipToPadding="false">
 
-    <ImageView
+    <com.lenovo.tvflowrecyclerview.FocusRoundImageView
         android:id="@+id/sub_type3_image_one"
         style="@style/item_509_312_style"
         android:layout_marginRight="@dimen/px_15_dp"/>
 
-    <ImageView
+    <com.lenovo.tvflowrecyclerview.FocusRoundImageView
         android:id="@+id/sub_type3_image_two"
         style="@style/item_509_312_style"
         android:layout_marginLeft="@dimen/px_15_dp"
         android:layout_marginRight="@dimen/px_15_dp"/>
 
-    <ImageView
+    <com.lenovo.tvflowrecyclerview.FocusRoundImageView
         android:id="@+id/sub_type3_image_three"
         style="@style/item_509_312_style"
         android:layout_marginLeft="@dimen/px_15_dp"/>

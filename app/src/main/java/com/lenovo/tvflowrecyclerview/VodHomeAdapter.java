@@ -6,7 +6,6 @@ import android.support.v7.widget.RecyclerView;
 import android.util.DisplayMetrics;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 
@@ -15,7 +14,26 @@ import com.bumptech.glide.Glide;
 import java.util.ArrayList;
 import java.util.List;
 
-import static com.lenovo.tvflowrecyclerview.Constants.*;
+import static com.lenovo.tvflowrecyclerview.Constants.ITEM_TYPE_EIGHT;
+import static com.lenovo.tvflowrecyclerview.Constants.ITEM_TYPE_EIGHTEEN;
+import static com.lenovo.tvflowrecyclerview.Constants.ITEM_TYPE_ELEVEN;
+import static com.lenovo.tvflowrecyclerview.Constants.ITEM_TYPE_FIFTEEN;
+import static com.lenovo.tvflowrecyclerview.Constants.ITEM_TYPE_FIVE;
+import static com.lenovo.tvflowrecyclerview.Constants.ITEM_TYPE_FOUR;
+import static com.lenovo.tvflowrecyclerview.Constants.ITEM_TYPE_FOURTEEN;
+import static com.lenovo.tvflowrecyclerview.Constants.ITEM_TYPE_NINE;
+import static com.lenovo.tvflowrecyclerview.Constants.ITEM_TYPE_NINETEEN;
+import static com.lenovo.tvflowrecyclerview.Constants.ITEM_TYPE_ONE;
+import static com.lenovo.tvflowrecyclerview.Constants.ITEM_TYPE_SEVEN;
+import static com.lenovo.tvflowrecyclerview.Constants.ITEM_TYPE_SEVENTEEN;
+import static com.lenovo.tvflowrecyclerview.Constants.ITEM_TYPE_SIX;
+import static com.lenovo.tvflowrecyclerview.Constants.ITEM_TYPE_SIXTEEN;
+import static com.lenovo.tvflowrecyclerview.Constants.ITEM_TYPE_TEN;
+import static com.lenovo.tvflowrecyclerview.Constants.ITEM_TYPE_THIRTEEN;
+import static com.lenovo.tvflowrecyclerview.Constants.ITEM_TYPE_THREE;
+import static com.lenovo.tvflowrecyclerview.Constants.ITEM_TYPE_TWELVE;
+import static com.lenovo.tvflowrecyclerview.Constants.ITEM_TYPE_TWENTY;
+import static com.lenovo.tvflowrecyclerview.Constants.ITEM_TYPE_TWO;
 
 
 /**
@@ -262,10 +280,9 @@ public class VodHomeAdapter extends RecyclerView.Adapter {
                 return;
             }
             if (ll != null) {
-                if (ll.findViewById(ids[i]) instanceof ImageView) {
+                if (ll.findViewById(ids[i]) instanceof FocusRoundImageView) {
 
-
-                    ImageView focusRoundImageView = ll.findViewById(ids[i]);
+                    FocusRoundImageView focusRoundImageView = ll.findViewById(ids[i]);
                     final Module element = elements.get(i);
 
                     focusRoundImageView.setVisibility(View.VISIBLE);

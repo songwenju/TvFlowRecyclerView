@@ -1,4 +1,4 @@
-<ImageView
+<com.lenovo.tvflowrecyclerview.FocusRoundImageView
     android:id="@+id/sub_type1_image_one"
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:src="@drawable/ic_default"

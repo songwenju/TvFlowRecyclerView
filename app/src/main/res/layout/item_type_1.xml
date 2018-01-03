@@ -7,7 +7,7 @@
     <include
         android:id="@+id/item_title_layout"
         layout="@layout/sub_item_type_title"
-        android:visibility="gone" />
+        android:visibility="visible" />
 
     <include
         style="@style/item_1588_312_style"

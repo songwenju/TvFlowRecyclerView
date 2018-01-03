@@ -3,36 +3,36 @@
     android:layout_width="match_parent"
     android:layout_height="@dimen/px_240_dp">
 
-    <ImageView
+    <com.lenovo.tvflowrecyclerview.FocusRoundImageView
         android:id="@+id/sub_type13_image_one"
         style="@style/item_240_240_style"
         android:layout_marginRight="@dimen/px_15_dp"/>
 
-    <ImageView
+    <com.lenovo.tvflowrecyclerview.FocusRoundImageView
         android:id="@+id/sub_type13_image_two"
         style="@style/item_240_240_style"
         android:layout_marginLeft="@dimen/px_15_dp"
         android:layout_marginRight="@dimen/px_15_dp" />
 
-    <ImageView
+    <com.lenovo.tvflowrecyclerview.FocusRoundImageView
         android:id="@+id/sub_type13_image_three"
         style="@style/item_240_240_style"
         android:layout_marginLeft="@dimen/px_15_dp"
         android:layout_marginRight="@dimen/px_15_dp" />
 
-    <ImageView
+    <com.lenovo.tvflowrecyclerview.FocusRoundImageView
         android:id="@+id/sub_type13_image_four"
         style="@style/item_240_240_style"
         android:layout_marginLeft="@dimen/px_15_dp"
         android:layout_marginRight="@dimen/px_15_dp" />
 
-    <ImageView
+    <com.lenovo.tvflowrecyclerview.FocusRoundImageView
         android:id="@+id/sub_type13_image_five"
         style="@style/item_240_240_style"
         android:layout_marginLeft="@dimen/px_15_dp"
         android:layout_marginRight="@dimen/px_15_dp" />
 
-    <ImageView
+    <com.lenovo.tvflowrecyclerview.FocusRoundImageView
         android:id="@+id/sub_type13_image_six"
         style="@style/item_240_240_style"
         android:layout_marginLeft="@dimen/px_15_dp"/>

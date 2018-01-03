@@ -4,7 +4,7 @@
               android:layout_height="wrap_content"
               android:clipChildren="false">
 
-    <ImageView
+    <com.lenovo.tvflowrecyclerview.FocusRoundImageView
         android:id="@+id/sub_type9_image_one"
         style="@style/item_1048_510_style"
         android:layout_marginRight="@dimen/px_30_dp"/>
@@ -14,12 +14,12 @@
         style="@style/item_type_style"
         android:orientation="vertical">
 
-        <ImageView
+        <com.lenovo.tvflowrecyclerview.FocusRoundImageView
             android:id="@+id/sub_type9_image_two"
             style="@style/item_510_240_style"
             android:layout_marginBottom="@dimen/px_15_dp" />
 
-        <ImageView
+        <com.lenovo.tvflowrecyclerview.FocusRoundImageView
             android:id="@+id/sub_type9_image_three"
             style="@style/item_510_240_style"
             android:layout_marginTop="@dimen/px_15_dp" />
